@@ -1,0 +1,21 @@
+
+.btn {
+    display: flex;
+    align-items: center;
+}
+
+
+.button-image {
+    height: 35px;
+    margin-inline-end: 5px;
+    color: #fff;
+}
+
+
+
+body {
+    margin: 0;
+    /* background-color: #f3f7ff !important; */
+    width: 300px;
+    padding: 10px;
+}
