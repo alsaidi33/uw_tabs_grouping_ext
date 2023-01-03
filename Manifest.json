@@ -3,6 +3,9 @@
   "name": "Activities Tracker",
   "description": "a floating panel to mark timings for various activities.",
   "version": "1.0",
+  "background": {
+    "service_worker": "background.js"
+  },
   "icons": {
     "16": "images/icon-16.png",
     "32": "images/icon-32.png",
@@ -10,7 +13,10 @@
     "128": "images/icon-128.png"
   },
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "tabs",
+    "tabGroups"
+
   ],
   "action": {
     "default_popup": "popup.html"
